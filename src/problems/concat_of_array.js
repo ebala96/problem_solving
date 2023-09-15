@@ -12,6 +12,7 @@ var concatArray = (arr) => {
     returnArray[i] = arr[i];
     returnArray[i + arrLen] = arr[i];
   }
+  //simplest approach is use concat method arr.concat(arr)/ arr.concat(...arr)
   return returnArray;
 };
 
