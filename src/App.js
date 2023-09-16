@@ -1,6 +1,7 @@
 import "./styles.css";
 import concatArray from "./problems/concat_of_array";
 import shuffleArray from "./problems/shuffle_array";
+import goodPairs from "./problems/good_pairs";
 
 export default function App() {
   return (
@@ -18,6 +19,13 @@ export default function App() {
         <p>input value: [1, 2, 3, 4, 5, 6] </p>
         <p>output value:{JSON.stringify(shuffleArray([1, 2, 3, 4, 5, 6]))}</p>
       </div>
+      <hr></hr>
+      <div>
+        <p>problem: good pairs in an array</p>
+        <p>input value: [1,2,3,1,1,3] </p>
+        <p>output value:{JSON.stringify(goodPairs([1, 2, 3, 1, 1, 3]))}</p>
+      </div>
+      <hr></hr>
     </div>
   );
 }
