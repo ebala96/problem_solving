@@ -3,6 +3,7 @@ import concatArray from "./problems/concat_of_array";
 import shuffleArray from "./problems/shuffle_array";
 import goodPairs from "./problems/good_pairs";
 import pascalTriangle from "./problems/pascal_triangle";
+import maximumSubarray from "./problems/maximum_subarray";
 
 export default function App() {
   return (
@@ -31,6 +32,15 @@ export default function App() {
         <p>problem: pascal's triangle</p>
         <p>input value: 5 </p>
         <p>output value:{JSON.stringify(pascalTriangle(5))}</p>
+      </div>
+      <hr></hr>
+      <div>
+        <p>problem: maximum subarray sum</p>
+        <p>input value: [-2, -3, 4, -1, -2, 1, 5, -3] </p>
+        <p>
+          output value:
+          {JSON.stringify(maximumSubarray([-2, -3, 4, -1, -2, 1, 5, -3]))}
+        </p>
       </div>
       <hr></hr>
     </div>
