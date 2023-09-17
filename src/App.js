@@ -4,6 +4,7 @@ import shuffleArray from "./problems/shuffle_array";
 import goodPairs from "./problems/good_pairs";
 import pascalTriangle from "./problems/pascal_triangle";
 import maximumSubarray from "./problems/maximum_subarray";
+import bestTimeToSellStock from "./problems/best_time_selling_stock";
 
 export default function App() {
   return (
@@ -40,6 +41,15 @@ export default function App() {
         <p>
           output value:
           {JSON.stringify(maximumSubarray([-2, -3, 4, -1, -2, 1, 5, -3]))}
+        </p>
+      </div>
+      <hr></hr>
+      <div>
+        <p>problem: Best time to buy and sell stock</p>
+        <p>input value:[7,1,5,3,6,4] </p>
+        <p>
+          output value:
+          {JSON.stringify(bestTimeToSellStock([7, 1, 5, 3, 6, 4]))}
         </p>
       </div>
       <hr></hr>
