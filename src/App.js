@@ -5,6 +5,7 @@ import goodPairs from "./problems/good_pairs";
 import pascalTriangle from "./problems/pascal_triangle";
 import maximumSubarray from "./problems/maximum_subarray";
 import bestTimeToSellStock from "./problems/best_time_selling_stock";
+import reverseString from "./problems/reverse_string";
 
 export default function App() {
   return (
@@ -50,6 +51,15 @@ export default function App() {
         <p>
           output value:
           {JSON.stringify(bestTimeToSellStock([7, 1, 5, 3, 6, 4]))}
+        </p>
+      </div>
+      <hr></hr>
+      <div>
+        <p>problem: Reverse string</p>
+        <p>input value:"the sky is blue" </p>
+        <p>
+          output value:
+          {reverseString("the sky is    blue")}
         </p>
       </div>
       <hr></hr>
