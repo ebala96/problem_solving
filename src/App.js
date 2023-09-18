@@ -6,6 +6,7 @@ import pascalTriangle from "./problems/pascal_triangle";
 import maximumSubarray from "./problems/maximum_subarray";
 import bestTimeToSellStock from "./problems/best_time_selling_stock";
 import reverseString from "./problems/reverse_string";
+import longestPalindromicSubString from "./problems/longest_palindromic_substring";
 
 export default function App() {
   return (
@@ -60,6 +61,15 @@ export default function App() {
         <p>
           output value:
           {reverseString("the sky is    blue")}
+        </p>
+      </div>
+      <hr></hr>
+      <div>
+        <p>problem: Longest SubString Palindrome</p>
+        <p>input value:"forgeeksskeegfor" </p>
+        <p>
+          output value:
+          {longestPalindromicSubString("forgeeksskeegfor")}
         </p>
       </div>
       <hr></hr>
