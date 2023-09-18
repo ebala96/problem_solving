@@ -7,6 +7,7 @@ import maximumSubarray from "./problems/maximum_subarray";
 import bestTimeToSellStock from "./problems/best_time_selling_stock";
 import reverseString from "./problems/reverse_string";
 import longestPalindromicSubString from "./problems/longest_palindromic_substring";
+import longest_common_prefix from "./problems/longest_common_prefix";
 
 export default function App() {
   return (
@@ -70,6 +71,15 @@ export default function App() {
         <p>
           output value:
           {longestPalindromicSubString("forgeeksskeegfor")}
+        </p>
+      </div>
+      <hr></hr>
+      <div>
+        <p>problem: Longest SubString Prefix</p>
+        <p>input value:"[“geeksforgeeks”, “geeks”, “geek”, “geezer”]" </p>
+        <p>
+          output value:
+          {longest_common_prefix(["geeksforgeeks", "geeks", "geek", "geezer"])}
         </p>
       </div>
       <hr></hr>
