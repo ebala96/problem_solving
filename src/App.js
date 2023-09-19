@@ -10,6 +10,7 @@ import longestPalindromicSubString from "./problems/longest_palindromic_substrin
 import longest_common_prefix from "./problems/longest_common_prefix";
 import validAnagram from "./problems/valid_anagram";
 import repeatedStringMatch from "./problems/repeated_string_match";
+import romanToInteger from "./problems/roman_to_integer";
 
 export default function App() {
   return (
@@ -100,6 +101,15 @@ export default function App() {
         <p>
           output value:
           {JSON.stringify(repeatedStringMatch("abcd", "cdabcdab"))}
+        </p>
+      </div>
+      <hr></hr>
+      <div>
+        <p>problem: Roman to Integer</p>
+        <p>input value:"MCMXCIV" </p>
+        <p>
+          output value:
+          {JSON.stringify(romanToInteger("MCMXCIV"))}
         </p>
       </div>
       <hr></hr>
