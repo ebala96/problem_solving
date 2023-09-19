@@ -9,6 +9,7 @@ import reverseString from "./problems/reverse_string";
 import longestPalindromicSubString from "./problems/longest_palindromic_substring";
 import longest_common_prefix from "./problems/longest_common_prefix";
 import validAnagram from "./problems/valid_anagram";
+import repeatedStringMatch from "./problems/repeated_string_match";
 
 export default function App() {
   return (
@@ -90,6 +91,15 @@ export default function App() {
         <p>
           output value:
           {JSON.stringify(validAnagram("anagram", "nagaram"))}
+        </p>
+      </div>
+      <hr></hr>
+      <div>
+        <p>problem: Repeated String Match</p>
+        <p>input value:"abcd","cdabcdab" </p>
+        <p>
+          output value:
+          {JSON.stringify(repeatedStringMatch("abcd", "cdabcdab"))}
         </p>
       </div>
       <hr></hr>
