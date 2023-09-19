@@ -8,6 +8,7 @@ import bestTimeToSellStock from "./problems/best_time_selling_stock";
 import reverseString from "./problems/reverse_string";
 import longestPalindromicSubString from "./problems/longest_palindromic_substring";
 import longest_common_prefix from "./problems/longest_common_prefix";
+import validAnagram from "./problems/valid_anagram";
 
 export default function App() {
   return (
@@ -80,6 +81,15 @@ export default function App() {
         <p>
           output value:
           {longest_common_prefix(["geeksforgeeks", "geeks", "geek", "geezer"])}
+        </p>
+      </div>
+      <hr></hr>
+      <div>
+        <p>problem: Valid Anagram</p>
+        <p>input value:"anagram","nagaram" </p>
+        <p>
+          output value:
+          {JSON.stringify(validAnagram("anagram", "nagaram"))}
         </p>
       </div>
       <hr></hr>
